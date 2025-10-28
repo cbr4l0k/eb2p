@@ -5,6 +5,8 @@ pub mod objective;
 pub mod vision;
 pub mod initiative;
 pub mod task;
+pub mod cmp;
+pub mod priority_matrix;
 
 pub use goal::Goal;
 pub use ids::{VisionId, GoalId, InitiativeId, TaskId, ObjectiveId};

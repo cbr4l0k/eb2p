@@ -49,8 +49,17 @@ impl Task {
     }
 }
 
-
 pub struct TaskDependency {
     pub task_id: TaskId,
     pub depends_on_id: TaskId,
+}
+
+impl TaskDependency {
+    pub fn new(task_id: TaskId, depends_on_id: TaskId) -> Self {
+        Self {
+            task_id,
+            depends_on_id,
+        }
+    }
+    
 }
