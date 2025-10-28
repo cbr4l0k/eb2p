@@ -1,0 +1,6 @@
+[package]
+name = "eb2p" # Elegant planner 2 plan
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
