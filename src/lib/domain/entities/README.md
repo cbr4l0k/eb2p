@@ -35,15 +35,15 @@ erDiagram
         InitiativeId id
         string name
         string owner
-        DateYMD start_date
+        NaiveDate start_date
     }
 
     Task {
         TaskId id
         InitiativeId initiative_id
         string name
-        DateYMD start_date
-        DateYMD end_date
+        NaiveDate start_date
+        NaiveDate end_date
         bool completed
     }
 

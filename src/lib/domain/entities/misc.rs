@@ -83,20 +83,4 @@ impl Quantity {
     }
 }
 
-#[derive(Debug, Clone, Copy, Eq, PartialEq, Hash)]
-pub struct DateYMD {
-    pub year: Year,
-    pub month: Month,
-    pub day: Day,   
-}
-
-impl DateYMD {
-    pub fn new(year: Year, month: Month, day: Day) -> Self {
-        Self { year, month, day }
-    }
-
-    pub fn to_string(&self) -> String {
-        format!("{}-{}-{}", self.year.to_string(), self.month.to_string(), self.day.to_string())
-    }
-}
 

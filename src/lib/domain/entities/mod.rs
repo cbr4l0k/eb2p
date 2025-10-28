@@ -8,7 +8,7 @@ pub mod task;
 
 pub use goal::Goal;
 pub use ids::{VisionId, GoalId, InitiativeId, TaskId, ObjectiveId};
-pub use misc::{Quantity, Year, Percent, Quarter, DateYMD};
+pub use misc::{Quantity, Year, Percent, Quarter};
 pub use objective::Objective;
 pub use vision::Vision;
 pub use initiative::Inititive;
