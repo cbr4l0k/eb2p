@@ -5,7 +5,7 @@ pub mod objective;
 pub mod vision;
 pub mod initiative;
 pub mod task;
-pub mod cmp;
+pub mod cpm;
 pub mod priority_matrix;
 
 pub use goal::Goal;
@@ -15,6 +15,8 @@ pub use objective::Objective;
 pub use vision::Vision;
 pub use initiative::Inititive;
 pub use task::{Task, TaskDependency};
+pub use cpm::{CpmTask, CpmResult};
+pub use priority_matrix::{PriorityItem, PriorityMatrix};
 
 // =============================
 // Between Structs Relationships
