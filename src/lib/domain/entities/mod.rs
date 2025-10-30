@@ -1,16 +1,18 @@
+pub mod cpm;
 pub mod goal;
 pub mod ids;
-pub mod misc;
-pub mod objective;
-pub mod vision;
 pub mod initiative;
-pub mod task;
-pub mod cpm;
+pub mod misc;
+pub mod note;
+pub mod objective;
 pub mod priority_matrix;
+pub mod task;
+pub mod vision;
 
 pub use goal::Goal;
-pub use ids::{VisionId, GoalId, InitiativeId, TaskId, ObjectiveId};
+pub use ids::{VisionId, GoalId, InitiativeId, TaskId, ObjectiveId, NoteId};
 pub use misc::{Quantity, Year, Percent, Quarter};
+pub use note::Note;
 pub use objective::Objective;
 pub use vision::Vision;
 pub use initiative::Inititive;

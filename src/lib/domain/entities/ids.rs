@@ -61,3 +61,4 @@ define_id!(ObjectiveId, "OB");
 define_id!(GoalId, "GL");
 define_id!(InitiativeId, "IN");
 define_id!(TaskId, "TS");
+define_id!(NoteId, "NT");
