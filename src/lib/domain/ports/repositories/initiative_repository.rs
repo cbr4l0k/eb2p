@@ -1,6 +1,7 @@
 use crate::domain::entities::{Inititive, InitiativeId}; 
 use anyhow::Result;
 
+
 pub trait InitiativeRepository: Send + Sync {
     fn get_all(&self) -> Result<Vec<Inititive>>;
     fn get_by_id<T: Into<InitiativeId>>(&self, id: T) -> Result<Option<Inititive>>;

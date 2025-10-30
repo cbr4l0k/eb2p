@@ -1,11 +1,13 @@
 pub mod goal_repository;
 pub mod initiative_repository;
+pub mod note_repository;
 pub mod objective_repository;
 pub mod task_repository;
 pub mod vision_repository;
 
 pub use goal_repository::GoalRepository;
 pub use initiative_repository::InitiativeRepository;
+// pub use note_repository::NoteRepository;
 pub use objective_repository::ObjectiveRepository;
 pub use task_repository::TaskRepository;
 pub use vision_repository::VisionRepository;
