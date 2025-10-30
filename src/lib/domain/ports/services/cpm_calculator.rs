@@ -1,7 +1,7 @@
 use crate::domain::entities::{ CpmResult, Task, TaskDependency, };
 use anyhow::Result;
 
-pub trait CmpCalculator {
+pub trait CpmCalculator {
     fn calculate_cmp(
         &self,
         tasks: &[Task],

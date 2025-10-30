@@ -3,7 +3,7 @@ use chrono::{Duration, NaiveDate, Utc};
 
 use crate::domain::{
     entities::{CpmResult, CpmTask, Task, TaskDependency, TaskId},
-    ports::services::CmpCalculator,
+    ports::services::CpmCalculator,
 };
 use anyhow::{Context, Result};
 
@@ -19,7 +19,7 @@ impl CpmService {
     }
 }
 
-impl CmpCalculator for CpmService {
+impl CpmCalculator for CpmService {
     fn calculate_cmp(
         &self,
         tasks: &[Task],

@@ -1,10 +1,11 @@
-use crate::domain::entities::{ CpmResult, Inititive, PriorityMatrix, };
+use crate::domain::entities::{ CpmResult, InitiativeGoal, PriorityMatrix, Task };
 use anyhow::Result;
 
 pub trait PriorityMatrixCalculator {
     fn calculate_priority_matrix(
         &self,
-        initiatives: &[Inititive],
+        initiative_goals: &[InitiativeGoal],
+        tasks: &[Task],
         cpm_results: &[CpmResult],
     ) -> Result<PriorityMatrix>;
 } 

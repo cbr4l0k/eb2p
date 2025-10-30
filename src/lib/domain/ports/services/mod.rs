@@ -1,5 +1,5 @@
-pub mod cmp_calculator;
+pub mod cpm_calculator;
 pub mod priority_matrix_calculator;
 
-pub use cmp_calculator::CmpCalculator;
+pub use cpm_calculator::CpmCalculator;
 pub use priority_matrix_calculator::PriorityMatrixCalculator;
